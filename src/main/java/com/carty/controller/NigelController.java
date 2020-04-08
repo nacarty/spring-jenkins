@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class NigelController {
-	@GetMapping("/")
+	@GetMapping("/get")
 	public String getMessage() {
-		return "This is your message";
+		return "This is your message from Nigel Controller";
 	}
 }
